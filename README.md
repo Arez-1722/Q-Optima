@@ -1,4 +1,4 @@
-Q-optima
+# Q-optima
 
 Quantum-inspired metaheuristic framework for dynamic vehicle routing under changing traffic conditions.
 
