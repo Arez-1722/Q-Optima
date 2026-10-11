@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+artifacts/checkpoints/*.pt
+artifacts/checkpoints/*.pth
+artifacts/figures/*.png
+artifacts/metrics/*.json
+artifacts/metrics/*.csv
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/synthetic/*
+!data/synthetic/.gitkeep
+.pytest_cache/

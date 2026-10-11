@@ -1,0 +1,23 @@
+seed: 42
+prediction_horizon_sec: 300
+graph:
+  num_segments: 150
+  expected_min_segments: 100
+  expected_max_segments: 300
+synthetic:
+  num_snapshots: 2000
+  num_scenarios: 60
+  min_speed_kmh: 5
+  max_speed_kmh: 55
+training:
+  hidden_dim: 32
+  heads: 2
+  layers: 2
+  dropout: 0.1
+  learning_rate: 0.001
+  max_epochs: 200
+  early_stopping_patience: 20
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
